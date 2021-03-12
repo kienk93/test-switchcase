@@ -1,0 +1,25 @@
+<html>
+<head lang="en">
+    <title>Thực hành : Switch case</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+</head>
+<body>
+
+<P id="op"></P>
+
+
+<script type="text/javascript">
+    let a = parseInt(prompt('nhập số a'));
+    switch (a) {
+        case 10:
+            document.getElementById('op').innerHTML = 'số đẹp'
+            break
+        case '':
+            document.getElementById('op').innerHTML = 'nhập dữ liệu vào đi'
+            break
+        default: document.getElementById('op').innerHTML = 'nhập sai hết rồi, cho nhập lại'
+    }
+</script>
+</body>
+</html>
